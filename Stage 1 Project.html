@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8">
+  		<title>Introduction to Programming Nanodegree Projects</title>
+  		<link rel="stylesheet" type="text/css" href="styleS1.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Introduction to Programming Nanodegree</h1>
+		</header>
+
+		<article>
+			<h2>Stage 1 Project</h2>
+			<nav class="nav-style">
+ 				<img src=book_stack.png alt="This image is not found.">
+ 				<h3>Table of Contents</h3>
+ 				<ul>
+ 					<li><a href="#Lesson-1">Lesson 1: The Basics of the Web & HTML</a>
+ 						<ul>
+ 							<li><a href="#Lesson-1-1">Basics of the Web</a></li>
+  							<li><a href="#Lesson-1-2">HTML</a></li>
+  							<li><a href="#Lesson-1-3">HTML Tags/Elements</a></li>
+  							<li><a href="#Lesson-1-4">A "Smart" Aside about "Stupid" Computers</a></li>
+  							<li><a href="#Lesson-1-5">HTML Attributes</a></li>
+  							<li><a href="#Lesson-1-6">Another Aside about Remembering</a></li>
+  							<li><a href="#Lesson-1-7">Inline/Block Elements</a></li>
+  							<li><a href="#Lesson-1-8">Container Elements</a></li>
+  							<li><a href="#Lesson-1-9">HTML Document Structure</a></li>
+  						</ul>
+  					</li>
+ 					<li><a href="#Lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+ 						<ul>
+  							<li><a href="#Lesson-2-1">Developer Tools</a></li>
+  							<li><a href="#Lesson-2-2">"Tree-Like" Document Structure</a></li>
+  							<li><a href="#Lesson-2-3">HTML-CSS-DOM</a></li>
+  							<li><a href="#Lesson-2-4">Translating Boxes into HTML</a></li>
+  						</ul>
+  					</li>
+ 					<li><a href="#Lesson-3">Lesson 3: Adding CSS Style & HTML Structure</a>
+ 						<ul>
+  							<li><a href="#Lesson-3-1">Avoid Repetition</a></li>
+  							<li><a href="#Lesson-3-2">CSS Introduction</a></li>
+  							<li><a href="#Lesson-3-3">CSS Details</a></li>
+  							<li><a href="#Lesson-3-4">Anatomy of a Box</a></li>
+  							<li><a href="#Lesson-3-5">Document Design Summary & Review</a></li>
+  						</ul>
+  					</li>
+ 				</ul>
+			</nav>
+
+			<section class="lesson" id="Lesson-1">
+				<img src=note2.png alt="This image is not found.">
+				<h3>Lesson 1: The Basics of the Web & HTML</h3>
+				<div class="concept" id="Lesson-1-1">
+					<div class="concept-title">Basics of the Web:</div>
+					<div class="concept-info">
+						<p>The world wide web is comprised of a large collection of <span class="italic">HTML documents</span>. These documents are connected to each other by <span class="italic">hyper links</span>. HTML documents may contain plain text, html, images, videos and/or music.</p>
+
+						<p>The main components of the web are you, the <span class="italic">user</span>, your computer with its <span class="italic">web browser</span>, the <span class="italic">internet</span> and <span class="italic">servers</span>. The user goes to a web page (e.g. http://www.google.com) and your browser sends an http request via the internet to servers; these servers respond to these requests by locating the appropriate page(s) and displaying it back on your web browser. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496>This video</a> contains a visual representation of these web component relationships.</p>
+
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-2">
+					<div class="concept-title">HTML:</div>
+					<div class="concept-info">
+						<p>HTML is an abbreviation of <span class="italic">hypertext markup language</span>. HTML is comprised of <span class="italic">text content</span>, or what the user sees, <span class="italic">markup</span>, or how the user sees it, <span class="italic">references</span> to other documents, such as images or videos, and finally <span class="italic">links</span> to other pages. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48724340>This video</a> gives an HTML overview.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-3">
+					<div class="concept-title">HTML Tags/Elements:</div>
+					<div class="concept-info">
+						<p>HTML markup is written as <span class="italic">elements</span> that describe how contents are displayed in a document. To write these elements, we use HTML <span class="italic">tags</span>. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723444>This video</a> shows the structure of tags. Examples of basic tags are those used for displaying bold text (<span class="italic">b</span> for bold) and italic text (<span class="italic">em</span> for emphasis).</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-4">
+					<div class="concept-title">A "Smart" Aside about "Stupid" Computers:</div>
+					<div class="concept-info">
+						<p>Computers are "stupid" in the sense that they can only literally translate programming code. They cannot interpret what a programmer intended, and are therefore unable to correct mistakes programmers make. Even small errors in code can lead to large problems in the rendered results.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-5">
+					<div class="concept-title">HTML Attributes:</div>
+					<div class="concept-info">
+						<p>Some HTML tags have <span class="italic">attributes</span>, which use an additional value in the opening tag. An example is the <span class="italic">anchor</span> tag, as described in <a href= "https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48508417/m-48723411ref"> this video</a>, that uses the attribute "href" to turn text into a link to another page. A further example is the image tag, that contains the attribute value "scr" to display an image file.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-6">
+					<div class="concept-title">Another Aside about Remembering:</div>
+					<div class="concept-info">
+						<p>It's important to note that even experienced programmers don't remember how to code everything, as there is simply <span class="italic">too much</span> to remember! If you forget how to do something, a simple online search will typically give you the answer you need.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-7">
+					<div class="concept-title">Inline/Block Elements:</div>
+					<div class="concept-info">
+						<p>HTML elements are classified as either <span class="italic">inline</span> or <span class="italic">block</span>. Inline elements are just text, whereas block elements create an "invisible box" around text. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723438>This video</a> uses the break and paragraph tags to describe the distinction between inline and block tags.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-8">
+					<div class="concept-title">Container Elements:</div>
+					<div class="concept-info">
+						<p><span class="italic">Container</span> elements simply "contain" whatever is found within them. The example given in <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48756004/m-48748018>this video</a> is "span", an inline element, and "div", a block element.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-1-9">
+					<div class="concept-title">HTML Document Structure:</div>
+					<div class="concept-info">
+						<p>HTML documents need doctype, html, head and body tags. Doctype has been simplified since the use of html5. The head section may contain things such as the document meta-data, CSS styling elements and the title of the page. The body section contains the actual text of the page. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48748025>This video</a> has a visual representation of the structure of HTML documents.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="lesson" id="Lesson-2">
+				<img src=note2.png alt="This image is not found.">
+				<h3>Lesson 2: Creating a Structured Document with HTML</h3>
+				<div class="concept" id="Lesson-2-1">
+					<div class="concept-title">Developer Tools:</div>
+					<div class="concept-info">
+						<p>Web browsers have <span class="italic">developer tools</span> built into them to help developers break down the structure of web pages and see how the browser interprets its components. Developer tools help you work with all the components of a page, such as HTML, CSS and Javascript.</p>
+
+						<p>The <span class="italic">HTML</span> components are the structure of the page; examples are the actual text and images on a page. The <span class="italic">CSS</span> components are the style of the page, or how that text and image is displayed; a basic example is the particular size font of text on the page. The <span class="italic">Javascript</span> components are the interactive things on the page. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-4137489485/e-2771378558/m-2771378559>This video</a> shows how developer tools are used to explore the many components of Wikipedia's main page.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-2-2">
+					<div class="concept-title">"Tree-Like" Document Structure:</div>
+					<div class="concept-info">
+						<p>HTML elements can contain other elements within them. The relationships between elements can be visually represented in a tree diagram. This "tree-like" structure tells the browser how HTML classifies page content. W3C provides a clear example of a "tree-like" page structure translated into a DOM:</p>
+							<img src="http://www.w3.org/TR/DOM-Level-2-Core/images/table.gif" alt="This image is not found.">
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-2-3">
+					<div class="concept-title">HTML-CSS-DOM:</div>
+					<div class="concept-info">
+						<p>A browser knows how to turn an HTML tag into an element in a tree structure because of DOM, or Document Object Model. A browser knows how to format the HTML elements because of CSS, or Cascading Style Sheets. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-4137489485/m-2596138815>This video</a> gives an overview of how the HTML, CSS and DOM of a particular page relate.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-2-4">
+					<div class="concept-title">Translating Boxes into HTML:</div>
+					<div class="concept-info">
+						<p>Everything on a page is in a "box". Once a web page design is broken down into simple boxes, these boxes can be represented as HTML elements and formatted using CSS. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-4137489485/m-2635788572>This video</a> shows how boxes are translated into HTML using <em>div</em> tags, and then each div is given logical class attributes.</p>
+
+						<p>This code is typically written in a text editor designed specifically for programming, such as <span class="italic"><a href=http://scratchpad.io/>Scratchpad</a></span>, <span class="italic"><a href=http://codepen.io/>Codepen</a></span> or <span class="italic"><a href=http://www.sublimetext.com/>Sublime Text</a></span>. The programmer decides which text editor to utilize based on the type and complexity of the page.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="lesson" id="Lesson-3">
+				<img src=note2.png alt="This image is not found.">
+				<h3>Lesson 3: Adding CSS Style & HTML Structure</h3>
+				<div class="concept" id="Lesson-3-1">
+					<div class="concept-title">Avoid Repetition:</div>
+					<div class="concept-info">
+						<p>Avoiding repetition in programming is very important, as it helps establish consistency. The more times you make a mistake, the more times that mistake would need to be corrected. If repetition is avoided, it minimizes the need for repeated corrections.</p>
+
+						<p>Similar elements on a page should be grouped in <span class="italic">classes</span> so that styles can be applied to all the elements of the same type. Class names should be logical and easy to discern.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-3-2">
+					<div class="concept-title">CSS Introduction:</div>
+					<div class="concept-info">
+						<p><span class="italic">Cascading Style Sheets</span>, or CSS, is a programming language used to apply formatting to HTML documents. "Cascading" means that the most specific rule is applied to that element, and related elements depending upon the tree-like structure (DOM) of the HTML document.<a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-4131369051/m-2771378568>This video</a> uses an analogy to national, state, municipal and house laws to illustrate the concept of "cascading".</p>
+
+						<p>There are three ways to apply CSS to an HTML document. The first is to write the CSS in the head element of the HTML document. The second, and most efficient, is to reference a separate CSS file in the head element of the HTML document. The third is to include the CSS inline with the HTML; this is not recommended as it leads to a lot of repeated code.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-3-3">
+					<div class="concept-title">CSS Details:</div>
+					<div class="concept-info">
+						<p>CSS uses <span class="italic">selectors</span> to control the style of HTML elements. The selectors tell the browser to apply a style (such as font type, color, etc.) to all elements of the selected type. Elements can also be selected by class so as to apply a style across all elements in that particular class.</p>
+
+						<p>Whenever possible, programmers should use <span class="italic">semantic</span> tags to define elements. Semantic tags more clearly tell the browser and the programmer what the element actually contains. For example, a "div" tag doesn't tell the browser that the page's header text is inside, whereas a "header" tag does.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-3-4">
+					<div class="concept-title">Anatomy of a Box:</div>
+					<div class="concept-info">
+						<p>Boxes have a specific structure, and knowing that structure allows for the modification of any or all of its parts. The <span class="italic">content</span> is surrounded by <span class="italic">padding</span>, <span class="italic">border</span> and <span class="italic">margin</span> areas, in that respective order. CSS is used to control any particulars about these box components, such as width, color, etc. <a href=https://www.udacity.com/course/viewer/#!/c-nd000/l-4131369051/e-2771378569/m-2792478544>This video</a> reviews all box components and how they can be manipulated using CSS.</p>
+
+						<p>Getting boxes sized correctly across different screen sizes and devices can be challenging. Setting box widths as a percentage (rather than a set amount of pixels) of screen size and using flex boxes are two of the most important ways programmers can gain flexibility and accuracy in box design.</p>
+					</div>
+				</div>
+
+				<div class="concept" id="Lesson-3-5">
+					<div class="concept-title">Document Design Summary & Review:</div>
+					<div class="concept-info">
+						<p>The steps of transforming a design mock-up into an HTML document are:</p>
+						<ol>
+							<li>Look for natural boxes.</li>
+							<li>Look for repeated styles and semantic elements.</li>
+							<li>Write the HTML.</li>
+							<li>Apply styles using CSS.</li>
+							<li>Use <span class="italic">Code-Test-Refine</span> to fix things, starting with the largest details and finishing with the smallest details. Code-Test-Refine is critical in the programming process as it is where errors are found and corrected in code used across multiple browsers and devices.</li>
+						</ol>
+
+						<p>All documents should have their HTML and CSS checked by an outside validator to be sure the page displays correctly across browsers. The World Wide Web Consortium (W3C) provides both an <a href=http://validator.w3.org/#validate_by_input>HTML</a> and a <a href=http://jigsaw.w3.org/css-validator/#validate_by_input>CSS</a> validator.</p>
+					</div>
+				</div>
+			</section>
+		</article>
+
+		<footer>
+			<p>By: Rebecca M. Flanagan, May 2015</p>
+		</footer>
+	</body>
+</html>
